@@ -1,6 +1,8 @@
+using Project.Interfaces;
+
 namespace Project.Services
 {
-    class BrazilTaxService
+    class BrazilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
